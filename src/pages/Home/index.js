@@ -5,6 +5,7 @@ import Balance from '../components/Balance';
 import Moviments from '../components/Moviments';
 import Actions from '../components/Actions';
 
+
 const list = [
   {
     id: 1,
@@ -51,6 +52,7 @@ export default function Home() {
       {/* <StatusBar style="auto"/> esta deixando o status bar preto se ficar auto */}
         
       <Header name="Fernando Guedes"/>
+      
       
       <Balance saldo="9.250,90" gastos="-527,00"/>
 
